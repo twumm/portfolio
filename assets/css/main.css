@@ -2980,11 +2980,22 @@ input, select, textarea {
 					margin-bottom: 0;
 				}
 
+		/* Address copyright */
+
+		.address-copyright ul {
+			list-style: none;
+			/* text-align: center; */
+		}
+
+		.address-copyright li {
+			display: inline-block;
+		}
+
 		/* Footer */
 
 			#footer .copyright li {
 				border-left-width: 0;
-				display: block;
+				display: none;
 				line-height: 2.25em;
 				margin-left: 0;
 				padding-left: 0;
@@ -3039,6 +3050,12 @@ input, select, textarea {
 					#header h1 br {
 						display: inline;
 					}
+
+		/* Address copyright */
+
+			.address-copyright {
+				display: none;
+			}
 
 		/* Footer */
 
