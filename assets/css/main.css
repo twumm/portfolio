@@ -2948,7 +2948,7 @@ input, select, textarea {
 
 /* XLarge */
 
-	@media screen and (max-width: 2000px) {
+	@media screen and (max-width: 2300px) {
 
 		/* Basic */
 
@@ -2995,17 +2995,6 @@ input, select, textarea {
 				#header > .inner {
 					margin-bottom: 0;
 				}
-
-		/* Address copyright */
-
-		.address-copyright ul {
-			list-style: none;
-			/* text-align: center; */
-		}
-
-		.address-copyright li {
-			display: inline-block;
-		}
 
 		/* Footer */
 
@@ -3096,6 +3085,7 @@ input, select, textarea {
 
 				#footer .copyright {
 					margin: 0 0 1em 0;
+					display: inline-block;
 				}
 
 					#footer .copyright li {
