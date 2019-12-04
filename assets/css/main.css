@@ -2948,12 +2948,27 @@ input, select, textarea {
 
 /* XLarge */
 
-	@media screen and (max-width: 1800px) {
+	@media screen and (max-width: 2000px) {
 
 		/* Basic */
 
 			body, input, select, textarea {
 				font-size: 12pt;
+			}
+		
+		/* Address copyright */
+
+			.address-copyright ul {
+				list-style: none;
+				/* text-align: center; */
+			}
+
+			.address-copyright li {
+				display: inline-block;
+			}
+
+			.copyright {
+				display: none;
 			}
 
 	}
